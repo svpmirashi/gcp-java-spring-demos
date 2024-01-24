@@ -1,0 +1,13 @@
+server:
+  port:8088
+
+gcp:
+  pubsub:
+    topicName: "rms-trade-poc-topic-1"
+    subscriptionName: "rms-sub-ordered"
+    consumerName: "Consumer-1"
+
+
+spring.cloud.gcp.pubsub:
+  subscription.${subscriptionName}:
+    executor-threads: 2
