@@ -10,4 +10,4 @@ gcp:
 
 spring.cloud.gcp.pubsub:
   subscription.${subscriptionName}:
-    executor-threads: 2
+    executor-threads: 3
